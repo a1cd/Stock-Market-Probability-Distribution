@@ -6,7 +6,7 @@ import java.io.File
 import java.io.FileInputStream
 import java.io.ObjectInputStream
 
-fun main() {
+fun unpacker() {
     val file = File("StockData.dat")
     println(file.length())
     var count: Int

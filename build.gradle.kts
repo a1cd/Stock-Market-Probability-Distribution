@@ -1,4 +1,5 @@
 plugins {
+    application
     kotlin("jvm") version "2.0.21"
 }
 
@@ -7,6 +8,10 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+}
+
+application {
+    mainClass = "MainKt"
 }
 
 dependencies {

@@ -15,7 +15,7 @@ import java.util.zip.ZipFile
 /**
  * Unpacks everything
  */
-fun main() {
+fun repacker() {
     val start = System.currentTimeMillis()
     val classloader = Thread.currentThread().contextClassLoader
     val uri = classloader.getResource("StockData.zip")!!
